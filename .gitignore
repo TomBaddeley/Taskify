@@ -1,0 +1,32 @@
+# Maven / Java
+/target/
+/.idea/
+/*.iml
+*.class
+*.log
+*.jar
+*.war
+
+# Eclipse, IntelliJ
+.vscode/
+*.sw?
+*.project
+*.classpath
+
+# Lombok-generated
+*.aj
+rebel-*
+
+# Oracle DB Docker data
+/oracle-data/
+
+# Node / Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env*
+npm-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
